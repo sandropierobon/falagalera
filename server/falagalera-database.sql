@@ -15,3 +15,7 @@ CREATE TABLE message(
 	FOREIGN KEY(id_user_request) REFERENCES user(id),
 	FOREIGN KEY(id_user_response) REFERENCES user(id)
 );
+
+INSERT INTO user(nickname, email, password, picture) values('waldisney', 'wal@teste.com','123456','http://www.sagradasmissoes.com.br/wp-content/uploads/2011/08/pato.jpg');
+INSERT INTO user(nickname, email, password, picture) values('joana', 'jojo@teste.com','123456','http://www.sagradasmissoes.com.br/wp-content/uploads/2011/08/pato.jpg');
+INSERT INTO user(nickname, email, password, picture) values('ana', 'ana@teste.com','123456','http://www.sagradasmissoes.com.br/wp-content/uploads/2011/08/pato.jpg');
