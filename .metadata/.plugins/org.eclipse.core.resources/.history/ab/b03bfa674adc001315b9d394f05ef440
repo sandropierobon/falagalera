@@ -1,0 +1,48 @@
+package com.br.nwk.falagalera.model;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import com.the9tcat.hadi.annotation.Column;
+import com.the9tcat.hadi.annotation.Table;
+
+@Table(name="message")
+public class Message implements Serializable{
+	
+	@Column(autoincrement=true)
+	private Integer id;
+	
+	@Column(name="id_user_request")
+	private Integer idUserRequest;
+	
+	@Column(name="text")
+	private String text;
+	
+	@Column(name="created_at")
+	private Date createAt;
+	
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public Integer getIdUserRequest() {
+		return idUserRequest;
+	}
+	public void setIdUserRequest(Integer idUserRequest) {
+		this.idUserRequest = idUserRequest;
+	}
+	public String getText() {
+		return text;
+	}
+	public void setText(String text) {
+		this.text = text;
+	}
+	public Date getCreateAt() {
+		return createAt;
+	}
+	public void setCreateAt(Date createAt) {
+		this.createAt = createAt;
+	}
+}

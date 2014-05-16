@@ -1,1 +1,10 @@
-1400167619421	Delete element
+1400167778240	Delete element
+1400167785591	Delete element
+1400167996667	Encapsulate field 'id'
+1400168001864	Encapsulate field 'idUser'
+1400168008881	Encapsulate field 'nickname'
+1400168015277	Encapsulate field 'picture'
+1400168144204	Encapsulate field 'id'
+1400168147872	Encapsulate field 'idUserRequest'
+1400168151405	Encapsulate field 'text'
+1400168155287	Encapsulate field 'createAt'

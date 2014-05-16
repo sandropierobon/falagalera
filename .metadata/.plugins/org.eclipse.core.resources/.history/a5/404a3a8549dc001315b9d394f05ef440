@@ -1,0 +1,9 @@
+package com.br.nwk.falagalera.repository;
+
+import com.the9tcat.hadi.DefaultDAO;
+
+public class DataManager {
+	
+	private DefaultDAO dao;
+	
+}

@@ -1,0 +1,10 @@
+package com.br.nwk.falagalera.model;
+
+import java.io.Serializable;
+
+public class User implements Serializable{
+	private Integer id;
+	private Integer idUser;
+	private String nickname;
+	private String picture;
+}
